@@ -1,0 +1,22 @@
+:root{
+    --primary-color:black;
+    --secondary-color:red;
+    --tirnary-color:white;
+}
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+header>nav>ul>li>a{
+    color: var(--tirnary-color);
+}
+button{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+button:hover{
+    background-color: bisque;
+}
+header>nav>ul>li>a:hover{
+    background-color: black;
+}
