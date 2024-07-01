@@ -7,7 +7,7 @@ body{
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
-header>nav>ul>li>a{
+header>nav>ul>li>a>button{
     color: var(--tirnary-color);
 }
 button{
@@ -17,6 +17,46 @@ button{
 button:hover{
     background-color: bisque;
 }
-header>nav>ul>li>a:hover{
+header>nav>ul>li>a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight:bold ;
+}
+header{
+    text-align: center;
+}
+header>nav>ul{
+    list-style-type: none;
+}
+.first{
+    color: aliceblue;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+}
+footer>ul{
+    list-style-type: none;
+}
+header>nav>ul>li>a>button{
+    border: 2px solid red;
+    border-radius: 15px;
+}
+.btn:hover{
     background-color: black;
+    color: aliceblue;
+}
+.btn{
+    border: 2px solid red;
+    border-radius: 15px;
+}
+input[type]{
+    border: 1px solid greenyellow;
+    border-radius: 15px;
+}
+.bnt{
+    border-radius:15px ;
+}
+#frm{
+    background-color: var(--tirnary-color);
 }
