@@ -49,6 +49,10 @@ header>nav>ul>li>a>button{
 .btn{
     border: 2px solid red;
     border-radius: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Roboto',sans-serif;
 }
 input[type]{
     border: 1px solid greenyellow;
@@ -59,4 +63,21 @@ input[type]{
 }
 #frm{
     background-color: var(--tirnary-color);
+}
+nav{
+    background-color: #000000;
+}
+main{
+    background-color: 
+    #E90074;
+    color: #FFF078;
+}
+footer{
+    background-color: #FFF078;
+}
+h1{
+    text-shadow: 0.1rem 0.2rem black;
+}
+h2{
+    text-shadow: 0.1rem 0.2rem green;
 }
