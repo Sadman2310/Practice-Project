@@ -1,35 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 :root{
     --primary-color:black;
     --secondary-color:red;
     --tirnary-color:white;
 }
 body{
-    background-color: var(--primary-color);
+    
     color: var(--secondary-color);
 }
-header>nav>ul>li>a>button{
-    color: var(--tirnary-color);
-}
-button{
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-}
-button:hover{
-    background-color: bisque;
-}
-header>nav>ul>li>a{
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight:bold ;
-}
-header{
-    text-align: center;
-}
-header>nav>ul{
+header nav ul{
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+   
 }
+nav ul li{
+    float: left;
+    
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none; 
+}
+nav ul li a:hover{
+    background-color: #111;
+}
+
 .first{
-    color: aliceblue;
+    
     font-weight: bold;
 }
 footer{
@@ -38,10 +46,7 @@ footer{
 footer>ul{
     list-style-type: none;
 }
-header>nav>ul>li>a>button{
-    border: 2px solid red;
-    border-radius: 15px;
-}
+
 .btn:hover{
     background-color: black;
     color: aliceblue;
@@ -64,20 +69,22 @@ input[type]{
 #frm{
     background-color: var(--tirnary-color);
 }
-nav{
-    background-color: #000000;
-}
-main{
-    background-color: 
-    #E90074;
-    color: #FFF078;
-}
+
 footer{
     background-color: #FFF078;
 }
 h1{
-    text-shadow: 0.1rem 0.2rem black;
+    text-shadow: 0.1rem 0.2rem 10px black;
 }
 h2{
-    text-shadow: 0.1rem 0.2rem green;
+    text-shadow: 0.1rem 0.2rem 10px green;
+}
+.card{
+    background-color: #fff;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+main{
+    width: 80%;
+    margin: auto;
 }
