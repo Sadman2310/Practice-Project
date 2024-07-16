@@ -83,6 +83,7 @@ h2{
     background-color: #fff;
     margin: 1.5rem;
     padding: 1.5rem;
+
 }
 main{
     width: 80%;
@@ -101,4 +102,19 @@ main{
 .pic #sohan{
     height: 164px;
     border-radius: 75px;
+}
+.cards{
+    background-color: #cbc;
+    margin: 10px;
+    padding: 1.5rem;
+    width: 10%;
+    float: left;
+}
+.row::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.cards:hover{
+    box-shadow: 0.1rem 0.2rem 0.8rem #111;
 }
