@@ -88,3 +88,17 @@ main{
     width: 80%;
     margin: auto;
 }
+#skills{
+    overflow: hidden;
+    position: relative;
+}
+.pic{
+    float: right;
+    position: absolute;
+    left: 35rem;
+    bottom: 27rem;
+}
+.pic #sohan{
+    height: 164px;
+    border-radius: 75px;
+}
