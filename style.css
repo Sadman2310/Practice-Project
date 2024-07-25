@@ -96,8 +96,8 @@ main{
 .pic{
     float: right;
     position: absolute;
-    left: 35rem;
-    bottom: 27rem;
+    left: 45rem;
+    bottom: 30rem;
 }
 .pic #sohan{
     height: 164px;
@@ -110,11 +110,16 @@ main{
     width: 10%;
     float: left;
 }
-.row::after{
-    content: " ";
-    clear: both;
-    display: table;
-}
 .cards:hover{
-    box-shadow: 0.1rem 0.2rem 0.8rem #111;
+    box-shadow: 0.1rem 0.1rem 0.8rem #111;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
