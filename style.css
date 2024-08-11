@@ -144,3 +144,13 @@ main{
     width: 100%;
     height: auto;
 }
+#intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sohan{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
