@@ -80,7 +80,17 @@ input[type]{
 }
 
 footer{
+    min-height: 20vh;
     background-color: #FFF078;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    gap: 0.4rem;
+    justify-content: space-around;
 }
 h1{
     text-shadow: 0.1rem 0.2rem 10px black;
@@ -183,11 +193,46 @@ input,select,textarea{
 /* input,select,textarea ends here */
 /* about starts here */
 .about{
-    margin-top: 0.8rem;
+    margin-top: 1.8rem;
     height: 85vh;
     background-image: url(img/cover.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* about ends here */
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* responsiveness starts here */
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 900px){
+    .about{
+        margin-top: 1.8rem;
+        height: 30vh;
+        background-image: none;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    footer{
+        min-height: 30vh;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    
+}
+/* responsiveness ends here */
